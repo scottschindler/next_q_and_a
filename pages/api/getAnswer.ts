@@ -4,8 +4,7 @@ import { HNSWLib } from "langchain/vectorstores";
 import { OpenAIEmbeddings } from "langchain/embeddings";
 import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
 import { NextApiRequest, NextApiResponse } from "next";
-
-import * as fs from "fs";
+import { text } from "../../text";
 
 export default async function (req: NextApiRequest, res: NextApiResponse) {
   return new Promise<void>(async (resolve) => {
@@ -13,7 +12,6 @@ export default async function (req: NextApiRequest, res: NextApiResponse) {
       const model = new OpenAI({
         openAIApiKey: process.env.OPEN_AI_KEY,
       });
-      const text = fs.readFileSync("text.txt", "utf8");
       const textSplitter = new RecursiveCharacterTextSplitter({
         chunkSize: 1000,
       });

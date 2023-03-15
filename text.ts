@@ -1,3 +1,4 @@
+export const text = `
 On March 10, 2023, Silicon Valley Bank (SVB) failed after a bank run, marking the second-largest bank failure in United States history and the largest since the 2008 financial crisis.[1][2] The collapse of SVB has had a significant impact on startups from the U.S. and abroad,[3] with many unable to withdraw money from the bank. Other large technology companies, media companies, and wineries were also impacted.
 
 During the COVID-19 pandemic, the tech sector experienced a period of growth. Capitalizing on an increase in deposits in 2021, SVB purchased long-term Treasury bonds. The market value of these bonds decreased through 2022 and into 2023 as the Federal Reserve raised interest rates to curb an inflation surge.[4] Higher interest rates also raised borrowing costs throughout the economy and some Silicon Valley Bank clients started pulling money out to meet their liquidity needs. To raise cash to pay withdrawals by its depositors, SVB announced on March 8 that it had sold over US$21 billion worth of securities, borrowed $15 billion, and would hold an emergency sale of some of its treasury stock to raise $2.25 billion, including $500 million from General Atlantic. The announcement, coupled with warnings from prominent Silicon Valley investors, caused a bank run as customers withdrew funds totaling $42 billion by the following day.
@@ -80,3 +81,6 @@ Cryptocurrency proponents cited the collapse in support of a decentralized monet
 
 Several Republicans and conservative commentators argued—without evidence—the bank failed because it was "woke" and distracted by workforce diversity efforts,[129][130] particularly blaming a manager at the UK subsidiary for the risks that arose in the U.S.[131] Republican lawmakers and financial policy experts criticized the emergency actions as a bailout that could create a moral hazard at other banks.[132]
 
+
+
+`;
